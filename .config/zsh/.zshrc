@@ -12,6 +12,7 @@ setopt autocd                                                   # if only direct
 setopt inc_append_history                                       # save commands are added to the history immediately, otherwise only when shell exits.
 setopt histignorespace                                          # Don't save commands that start with space
 setopt no_nomatch                                               # Unmatched patterns do not cause an error
+setopt globdots                                                 # Include hidden files in completions
 
 ## Auto completion section
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' # Case insensitive tab completion
