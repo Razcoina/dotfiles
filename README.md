@@ -6,6 +6,4 @@ How to install:
 1. Clone the repo
 2. Run the command:
 
-'''
-Will add nvim in the near future
-'''
+`cp -vir dotfiles/.config $HOME`
