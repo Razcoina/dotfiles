@@ -93,10 +93,13 @@ fi
 # pacman mirror updates with reflector
 alias pacman-mirror-update='systemctl start reflector.service'
 
-# colorize grep output (good for log files)
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
+# colorize output
+alias ls='ls --color=always'
+alias grep='grep --color=always'
+alias egrep='egrep --color=always'
+alias fgrep='fgrep --color=always'
+alias diff='diff --color=always'
+alias dmesg='dmesg --color=always'
 
 # confirm before overwriting something
 alias cp="cp -i"
