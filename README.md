@@ -6,5 +6,6 @@ How to install:
 1. Clone the repo
 2. Run the commands:
 `cp -vir dotfiles/.config $HOME;
-cp -vir dotfiles/.librewolf $HOME`
+cp -vir dotfiles/.librewolf $HOME;
+cp -vir dotfiles/.alsoftrc $HOME`
 4. Close the terminal and open again
