@@ -104,6 +104,7 @@ alias fgrep='fgrep --color=always'
 alias zgrep='zgrep --color=always'
 alias diff='diff --color=always'
 alias dmesg='dmesg --color=always'
+alias ip='ip -c=always'
 
 # confirm before overwriting something
 alias cp="cp -i"
