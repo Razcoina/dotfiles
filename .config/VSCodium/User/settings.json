@@ -2,7 +2,6 @@
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
     "notebook.formatOnSave.enabled": true,
-    "editor.insertSpaces": false,
     "editor.guides.bracketPairs": "active",
     "editor.indentSize": "tabSize",
     "editor.linkedEditing": true,
