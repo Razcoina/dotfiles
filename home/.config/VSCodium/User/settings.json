@@ -1,100 +1,130 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.insertFinalNewline": true,
-    "files.readonlyFromPermissions": true,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.indentSize": "tabSize",
-    "editor.inlineSuggest.showToolbar": "always",
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.linkedEditing": true,
-    "editor.mouseWheelZoom": true,
-    "editor.quickSuggestionsDelay": 0,
-    "editor.renderWhitespace": "all",
-    "editor.semanticHighlighting.enabled": true,
-    "editor.stablePeek": true,
-    "editor.stickyScroll.enabled": false,
-    "editor.suggest.localityBonus": true,
-    "editor.suggest.preview": true,
-    "editor.suggest.shareSuggestSelections": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": true,
-    "editor.suggest.showStatusBar": true,
-    "editor.wordBasedSuggestions": "allDocuments",
-    "notebook.defaultFormatter": "esbenp.prettier-vscode",
-    "notebook.formatOnSave.enabled": true,
-    "diffEditor.codeLens": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "none",
-    "window.confirmBeforeClose": "keyboardOnly",
-    "window.density.editorTabHeight": "compact",
-    "search.showLineNumbers": true,
-    "debug.allowBreakpointsEverywhere": true,
-    "debug.showBreakpointsInOverviewRuler": true,
-    "testing.showAllMessages": true,
-    "scm.alwaysShowActions": true,
-    "scm.alwaysShowRepositories": true,
-    "terminal.integrated.allowMnemonics": true,
-    "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
-    "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.enableImages": true,
-    "terminal.integrated.enableVisualBell": true,
-    "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "bash",
-            "icon": "terminal-bash"
-        },
-        "zsh": {
-            "path": "zsh"
-        },
-        "fish": {
-            "path": "fish"
-        },
-        "tmux": {
-            "path": "tmux",
-            "icon": "terminal-tmux"
-        },
-        "pwsh": {
-            "path": "pwsh",
-            "icon": "terminal-powershell"
-        }
+  "telemetry.enableTelemetry": false,
+  "telemetry.feedback.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.readonlyFromPermissions": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.indentSize": "tabSize",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderWhitespace": "all",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.stablePeek": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": "allDocuments",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.formatOnSave.enabled": true,
+  "diffEditor.codeLens": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "none",
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.density.editorTabHeight": "compact",
+  "search.showLineNumbers": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "testing.showAllMessages": true,
+  "scm.alwaysShowActions": true,
+  "scm.alwaysShowRepositories": true,
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.focusAfterRun": "terminal",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
     },
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.external.linuxExec": "konsole",
-    "css.format.spaceAroundSelectorSeparator": true,
-    "less.format.spaceAroundSelectorSeparator": true,
-    "less.lint.float": "warning",
-    "scss.format.spaceAroundSelectorSeparator": true,
-    "scss.lint.float": "warning",
-    "git.showPushSuccessNotification": true,
-    "git.supportCancellation": true,
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true,
-    "Lua.codeLens.enable": true,
-    "Lua.format.defaultConfig": {
-        "max_line_length": "1000"
+    "zsh": {
+      "path": "zsh"
     },
-    "Lua.hint.setType": true,
-    "python.terminal.focusAfterLaunch": true,
-    "better-comments.highlightPlainText": true,
-    "path-intellisense.autoSlashAfterDirectory": true,
-    "path-intellisense.showHiddenFiles": true,
-    "accessibility.signals.terminalBell": {
-        "sound": "on"
+    "fish": {
+      "path": "fish"
     },
-    "grunt.autoDetect": "on",
-    "gulp.autoDetect": "on",
-    "jake.autoDetect": "on",
-    "clangd.checkUpdates": true,
-    "fiveServer.port": 8080,
-    "prettier.enableDebugLogs": true,
-    "eslint.debug": true,
-    "eslint.lintTask.enable": true,
-    "[lua]": {
-        "editor.defaultFormatter": "sumneko.lua"
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
     }
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.external.linuxExec": "konsole",
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "css.format.spaceAroundSelectorSeparator": true,
+  "less.format.spaceAroundSelectorSeparator": true,
+  "less.lint.float": "warning",
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.lint.float": "warning",
+  "git.showPushSuccessNotification": true,
+  "git.supportCancellation": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 80,
+  "bladeFormatter.format.indentInnerHtml": true,
+  "bladeFormatter.format.indentSize": 2,
+  "bladeFormatter.format.wrapLineLength": 80,
+  "Lua.codeLens.enable": true,
+  "Lua.format.defaultConfig": {
+    "max_line_length": "80"
+  },
+  "Lua.hint.setType": true,
+  "python.terminal.focusAfterLaunch": true,
+  "basedpyright.analysis.inlayHints.callArgumentNames": false,
+  "basedpyright.analysis.inlayHints.functionReturnTypes": false,
+  "basedpyright.analysis.inlayHints.variableTypes": false,
+  "better-comments.highlightPlainText": true,
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.showHiddenFiles": true,
+  "grunt.autoDetect": "on",
+  "gulp.autoDetect": "on",
+  "jake.autoDetect": "on",
+  "clangd.checkUpdates": true,
+  "fiveServer.port": 8080,
+  "prettier.enableDebugLogs": true,
+  "eslint.debug": true,
+  "eslint.lintTask.enable": true,
+  "dart.showExtensionRecommendations": false,
+  "dart.devToolsBrowser": "default",
+  "intelephense.telemetry.enabled": false,
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/vendor/**",
+    "**/node_modules/**"
+  ],
+  "intelephense.environment.includePaths": [
+    "vendor/laravel/framework/src",
+    "vendor/symfony/console"
+  ],
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
 }
