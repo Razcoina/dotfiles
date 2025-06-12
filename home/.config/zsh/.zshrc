@@ -93,9 +93,6 @@ fi
 # pacman mirror updates with reflector
 alias pacman-mirror-update='systemctl start reflector.service'
 
-# winetricks using zenity
-alias winetricks='winetricks --gui=zenity'
-
 # colorize output
 alias ls='ls --color=always'
 alias grep='grep --color=always'
