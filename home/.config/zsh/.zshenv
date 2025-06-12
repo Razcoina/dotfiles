@@ -8,3 +8,6 @@ export __GLX_VENDOR_LIBRARY_NAME=nvidia
 if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
     export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
+
+# Add composer and flutter binary locations to PATH
+export PATH="$HOME/.config/composer/vendor/bin:$HOME/Android/flutter/bin:$PATH"
