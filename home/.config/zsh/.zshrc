@@ -94,14 +94,14 @@ fi
 alias pacman-mirror-update='systemctl start reflector.service'
 
 # colorize output
-alias ls='ls --color=always'
-alias grep='grep --color=always'
-alias egrep='egrep --color=always'
-alias fgrep='fgrep --color=always'
-alias zgrep='zgrep --color=always'
-alias diff='diff --color=always'
-alias dmesg='dmesg --color=always'
-alias ip='ip -c=always'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias zgrep='zgrep --color=auto'
+alias diff='diff --color=auto'
+alias dmesg='dmesg --color=auto'
+alias ip='ip -c=auto'
 
 # confirm before overwriting something
 alias cp="cp -i"
