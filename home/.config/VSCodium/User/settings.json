@@ -43,7 +43,6 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.enableImages": true,
   "terminal.integrated.enableVisualBell": true,
-  "terminal.integrated.focusAfterRun": "terminal",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.profiles.linux": {
     "bash": {
@@ -103,6 +102,8 @@
   "gulp.autoDetect": "on",
   "jake.autoDetect": "on",
   "clangd.checkUpdates": true,
+  "fiveServer.php.executable": "/usr/bin/php",
+  "fiveServer.php.ini": "/etc/php/php.ini",
   "fiveServer.port": 8080,
   "prettier.enableDebugLogs": true,
   "eslint.debug": true,
@@ -113,15 +114,7 @@
   "dart.showExtensionRecommendations": false,
   "dart.flutterSdkPath": "~/Android/flutter",
   "intelephense.telemetry.enabled": false,
-  "intelephense.files.exclude": [
-    "**/.git/**",
-    "**/vendor/**",
-    "**/node_modules/**"
-  ],
-  "intelephense.environment.includePaths": [
-    "vendor/laravel/framework/src",
-    "vendor/symfony/console"
-  ],
+  "intelephense.files.exclude": ["**/.git/**", "**/node_modules/**"],
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
