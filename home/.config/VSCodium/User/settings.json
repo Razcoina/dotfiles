@@ -113,8 +113,14 @@
   "dart.devToolsBrowser": "default",
   "dart.showExtensionRecommendations": false,
   "dart.flutterSdkPath": "~/Android/flutter",
-  "intelephense.telemetry.enabled": false,
+  "intelephense.codeLens.implementations.enable": true,
+  "intelephense.codeLens.overrides.enable": true,
+  "intelephense.codeLens.parent.enable": true,
+  "intelephense.codeLens.references.enable": true,
+  "intelephense.codeLens.usages.enable": true,
   "intelephense.files.exclude": ["**/.git/**", "**/node_modules/**"],
+  "intelephense.format.braces": "allman",
+  "intelephense.telemetry.enabled": false,
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
@@ -126,5 +132,5 @@
   },
   "[blade]": {
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  }
+  },
 }
