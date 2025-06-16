@@ -5,7 +5,12 @@ if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
     export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
 
-# Add composer to PATH if not already present
+# Add npm global packages to PATH if not already present
+if [[ ":$PATH:" != *":$HOME/.config/npm/node_modules/bin:"* ]]; then
+  PATH="$HOME/.config/npm/node_modules/bin:$PATH"
+fi
+
+# Add composer global packages to PATH if not already present
 if [[ ":$PATH:" != *":$HOME/.config/composer/vendor/bin:"* ]]; then
   PATH="$HOME/.config/composer/vendor/bin:$PATH"
 fi
