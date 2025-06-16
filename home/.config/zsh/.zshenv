@@ -10,8 +10,8 @@ if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
 fi
 
 # Add npm global packages to PATH if not already present
-if [[ ":$PATH:" != *":$HOME/.config/npm/node_modules/bin:"* ]]; then
-  PATH="$HOME/.config/npm/node_modules/bin:$PATH"
+if [[ ":$PATH:" != *":$HOME/.config/npm/bin:"* ]]; then
+  PATH="$HOME/.config/npm/bin:$PATH"
 fi
 
 # Add composer global packages to PATH if not already present
