@@ -15,11 +15,64 @@
   "endOfLine": "lf",
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": true,
+  "plugins": [
+    "@prettier/plugin-php",
+    "@shufo/prettier-plugin-blade",
+    "prettier-plugin-java",
+    "prettier-plugin-kotlin",
+    "prettier-plugin-sh"
+  ],
   "overrides": [
     {
       "files": ".prettierrc",
       "options": {
-      "parser": "json"
+        "parser": "json"
+      }
+    },
+    {
+      "files": ["*.php"],
+      "options": {
+        "parser": "php",
+        "phpVersion": "8.4",
+        "braceStyle": "1tbs",
+        "trailingCommaPHP": true
+      }
+    },
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade",
+        "tabWidth": 2,
+        "printWidth": 80,
+        "wrapAttributes": "force",
+        "wrapAttributesMinAttrs": 2
+      }
+    },
+    {
+      "files": ["*.java"],
+      "options": {
+        "parser": "java"
+      }
+    },
+    {
+      "files": ["*.kt", "*.kts", "*.ktm"],
+      "options": {
+        "parser": "kotlin"
+      }
+    },
+    {
+      "files": ["*.sh", "*.bash", "*.zsh"],
+      "options": {
+        "parser": "sh",
+        "keepComments": true,
+        "variant": 0,
+        "indent": 2,
+        "binaryNextLine": true,
+        "switchCaseIndent": true,
+        "spaceRedirects": true,
+        "minify": false,
+        "singleLine": false,
+        "functionNextLine": false
       }
     }
   ]
