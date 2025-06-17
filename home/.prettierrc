@@ -34,7 +34,7 @@
       "options": {
         "parser": "php",
         "phpVersion": "8.4",
-        "braceStyle": "1tbs",
+        "braceStyle": "per-cs",
         "trailingCommaPHP": true
       }
     },
