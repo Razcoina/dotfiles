@@ -69,10 +69,10 @@
   "accessibility.signals.terminalBell": {
     "sound": "on"
   },
-  "css.format.spaceAroundSelectorSeparator": true,
-  "less.format.spaceAroundSelectorSeparator": true,
+  "css.format.enable": false,
+  "less.format.enable": false,
   "less.lint.float": "warning",
-  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.format.enable": false,
   "scss.lint.float": "warning",
   "git.autofetch": "all",
   "git.confirmSync": false,
@@ -80,12 +80,8 @@
   "git.enableCommitSigning": true,
   "git.fetchOnPull": true,
   "git.showPushSuccessNotification": true,
-  "html.format.indentHandlebars": true,
-  "html.format.indentInnerHtml": true,
+  "html.format.enable": false,
   "html.format.wrapLineLength": 80,
-  "bladeFormatter.format.indentInnerHtml": true,
-  "bladeFormatter.format.indentSize": 2,
-  "bladeFormatter.format.wrapLineLength": 80,
   "Lua.codeLens.enable": true,
   "Lua.format.defaultConfig": {
     "max_line_length": "80"
@@ -106,6 +102,8 @@
   "fiveServer.php.ini": "/etc/php/php.ini",
   "fiveServer.port": 8080,
   "prettier.enableDebugLogs": true,
+  "prettier.requireConfig": true,
+  "prettier.resolveGlobalModules": true,
   "eslint.debug": true,
   "eslint.lintTask.enable": true,
   "dart.debugExternalPackageLibraries": true,
@@ -113,24 +111,27 @@
   "dart.devToolsBrowser": "default",
   "dart.showExtensionRecommendations": false,
   "dart.flutterSdkPath": "~/Android/flutter",
+  "php.debug.executablePath": "/usr/bin/php",
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
   "intelephense.codeLens.implementations.enable": true,
   "intelephense.codeLens.overrides.enable": true,
   "intelephense.codeLens.parent.enable": true,
   "intelephense.codeLens.references.enable": true,
   "intelephense.codeLens.usages.enable": true,
   "intelephense.files.exclude": ["**/.git/**", "**/node_modules/**"],
-  "intelephense.format.braces": "allman",
+  "intelephense.format.enable": false,
   "intelephense.telemetry.enabled": false,
+  "gradle.debug": true,
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.format.enabled": false,
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationCodeLens": "all",
+  "redhat.telemetry.enabled": false,
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
   "[c]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  },
+  }
 }
