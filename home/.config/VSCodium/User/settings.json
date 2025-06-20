@@ -28,6 +28,8 @@
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "notebook.formatOnSave.enabled": true,
   "diffEditor.codeLens": true,
+  "workbench.colorTheme": "One Dark Modern Pro",
+  "workbench.preferredDarkColorTheme": "One Dark Modern Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.useSplitJSON": true,
   "workbench.startupEditor": "none",
@@ -194,7 +196,7 @@
     "zlib"
   ],
   "intelephense.telemetry.enabled": false,
-  "laraphense.maxLinesCount": 10000000000,
+  "laraphense.maxLinesCount": 1000000,
   "laraphense.trace.server": "messages",
   "gradle.debug": true,
   "java.dependency.packagePresentation": "hierarchical",
