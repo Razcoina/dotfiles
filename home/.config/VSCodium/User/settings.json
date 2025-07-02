@@ -25,6 +25,7 @@
   "editor.suggest.showStatusBar": true,
   "editor.tabSize": 2,
   "editor.wordBasedSuggestions": "allDocuments",
+  "editor.wordWrap": "on",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "notebook.formatOnSave.enabled": true,
   "diffEditor.codeLens": true,
@@ -68,10 +69,12 @@
   },
   "terminal.integrated.sendKeybindingsToShell": true,
   "terminal.external.linuxExec": "konsole",
+  "chat.editor.wordWrap": "on",
   "accessibility.signals.terminalBell": {
     "sound": "on"
   },
   "css.format.enable": false,
+  "css.lint.unknownAtRules": "ignore",
   "less.format.enable": false,
   "less.lint.float": "warning",
   "scss.format.enable": false,
