@@ -68,7 +68,7 @@
     }
   },
   "terminal.integrated.sendKeybindingsToShell": true,
-  "terminal.external.linuxExec": "konsole",
+  "terminal.external.linuxExec": "/usr/bin/konsole",
   "chat.editor.wordWrap": "on",
   "accessibility.signals.terminalBell": {
     "sound": "on"
