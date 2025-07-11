@@ -1,7 +1,7 @@
 ## Add variables to be set per-user
 
 # Prevent wine from setting it's applications as defaults globally
-WINEDLLOVERRIDES=winemenubuilder.exe=d
+export WINEDLLOVERRIDES=winemenubuilder.exe=d
 
 # Set SSH_AUTH_SOCK only in local sessions, not when SSHing into this machine
 if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
