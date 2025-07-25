@@ -30,4 +30,3 @@ if [[ ":$PATH:" != *":$HOME/Android/flutter/bin:"* ]]; then
 fi
 
 export PATH
-

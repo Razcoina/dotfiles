@@ -23,6 +23,7 @@
   "editor.suggest.shareSuggestSelections": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.suggest.showStatusBar": true,
+  "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "editor.wordBasedSuggestions": "allDocuments",
   "editor.wordWrap": "on",
