@@ -6,6 +6,9 @@ if [[ "$__NV_PRIME_RENDER_OFFLOAD" == "1" ]]; then
   export __GLX_VENDOR_LIBRARY_NAME=nvidia
 fi
 
+# PHP Xdebug Weirdness
+export XDEBUG_CONFIG="idekey=NEOVIM"
+
 # Prevent wine from setting it's applications as defaults globally
 export WINEDLLOVERRIDES=winemenubuilder.exe=d
 
