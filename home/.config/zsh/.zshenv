@@ -9,6 +9,9 @@ fi
 # PHP Xdebug Weirdness
 export XDEBUG_CONFIG="idekey=NEOVIM"
 
+# Change go directory location
+export GOPATH="$XDG_DATA_HOME/go"
+
 # Prevent wine from setting it's applications as defaults globally
 export WINEDLLOVERRIDES=winemenubuilder.exe=d
 
