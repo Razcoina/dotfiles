@@ -1,0 +1,34 @@
+CompileFlags:
+  Add: [-Wall, -Wextra]      # sensible warnings
+  Remove: [-W*]              # clear conflicting flags if needed
+
+Index:
+  Background: Build          # enable background indexing (default)
+  StandardLibrary: true      # index standard library for completion
+
+Diagnostics:
+  ClangTidy:
+    Add: [bugprone-*, performance-*, modernize-*]
+    Remove: [modernize-use-trailing-return-type]   # often noisy
+    FastCheckFilter: Strict   # only fast checks (keeps editor snappy)
+  UnusedIncludes: Strict      # warn about unused includes
+  MissingIncludes: Strict     # warn about missing includes
+
+Completion:
+  AllScopes: Yes
+  ArgumentLists: FullPlaceholders
+  HeaderInsertion: IWYU       # include what you use
+
+InlayHints:
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true
+  BlockEnd: true
+  Designators: true
+  DefaultArguments: false
+
+Hover:
+  ShowAKA: true               # show typedefs/desugared types
+
+Documentation:
+  CommentFormat: Doxygen      # Process Doxygen blocks
