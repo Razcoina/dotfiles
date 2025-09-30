@@ -6,9 +6,6 @@ if [[ "$__NV_PRIME_RENDER_OFFLOAD" == "1" ]]; then
   export __GLX_VENDOR_LIBRARY_NAME=nvidia
 fi
 
-# PHP Xdebug Weirdness
-export XDEBUG_CONFIG="idekey=NEOVIM"
-
 # Change go directory location
 export GOPATH="$XDG_DATA_HOME/go"
 
