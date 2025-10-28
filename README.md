@@ -1,6 +1,6 @@
 These are my personal dotfiles for common tools.
 
-Will add nvim in the future!
+Neovim configuration in https://github.com/Razcoina/conf.nvim
 
 How to install:
 1. Clone the repo
