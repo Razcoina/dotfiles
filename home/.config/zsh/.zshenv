@@ -14,7 +14,7 @@ export WINEDLLOVERRIDES=winemenubuilder.exe=d
 
 # Set SSH_AUTH_SOCK only in local sessions, not when SSHing into this machine
 if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
-    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+  export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
 
 # Add npm global packages to PATH if not already present
