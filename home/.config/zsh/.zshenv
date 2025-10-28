@@ -9,7 +9,7 @@ fi
 # Change go directory location
 export GOPATH="$XDG_DATA_HOME/go"
 
-# Prevent wine from setting it's applications as defaults globally
+# Prevent wine from setting its applications as defaults globally
 export WINEDLLOVERRIDES=winemenubuilder.exe=d
 
 # Set SSH_AUTH_SOCK only in local sessions, not when SSHing into this machine
