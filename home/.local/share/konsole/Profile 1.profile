@@ -10,6 +10,8 @@ UseFontLineChararacters=false
 
 [Cursor Options]
 CursorShape=0
+CustomCursorColor=166,166,166
+UseCustomCursorColor=true
 
 [General]
 DimWhenInactive=false
