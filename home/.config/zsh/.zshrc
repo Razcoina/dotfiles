@@ -77,6 +77,7 @@ bindkey '^[[1;5D' backward-word                                 #
 bindkey '^[[1;5C' forward-word                                  #
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
 bindkey '^[[Z' undo                                             # Shift+tab undo last action
+bindkey '^[[3;5~' delete-word                                   # CTRL+Delete delete next word
 
 # bind UP and DOWN arrow keys to history substring search
 bindkey '^[[A' history-substring-search-up                      # UP arrow
@@ -102,8 +103,3 @@ alias zgrep='zgrep --color=auto'
 alias diff='diff --color=auto'
 alias dmesg='dmesg --color=auto'
 alias ip='ip -c=auto'
-
-# confirm before overwriting something
-alias cp="cp -i"
-alias mv='mv -i'
-alias rm='rm -i'
