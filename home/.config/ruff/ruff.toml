@@ -1,0 +1,6 @@
+line-length = 120
+indent-width = 2
+
+[format]
+line-ending = "lf"
+docstring-code-format = true
