@@ -103,3 +103,9 @@ alias zgrep='zgrep --color=auto'
 alias diff='diff --color=auto'
 alias dmesg='dmesg --color=auto'
 alias ip='ip -c=auto'
+
+## Extras
+
+# Enable autocompletion for uv and uvx commands
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
