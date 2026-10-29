@@ -9,6 +9,12 @@ export WINEDLLOVERRIDES=winemenubuilder.exe=d
 # Set FVM cache path
 export FVM_CACHE_PATH="${XDG_CACHE_HOME:-$HOME/.cache}/fvm"
 
+# Android SDK
+export ANDROID_HOME="$XDG_DATA_HOME/android-sdk"
+
+# Android user configuration
+export ANDROID_USER_HOME="$XDG_CONFIG_HOME/.android"
+
 # Set SSH_AUTH_SOCK only in local sessions, not when SSHing into this machine
 if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
   export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
