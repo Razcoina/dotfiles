@@ -33,10 +33,5 @@ if [[ ":$PATH:" != *":$HOME/.config/composer/vendor/bin:"* ]]; then
   PATH="$HOME/.config/composer/vendor/bin:$PATH"
 fi
 
-# Add flutter to PATH if not already present
-if [[ ":$PATH:" != *":$HOME/Android/flutter/bin:"* ]]; then
-  PATH="$HOME/Android/flutter/bin:$PATH"
-fi
-
 export PATH
 
