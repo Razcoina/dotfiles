@@ -23,6 +23,11 @@ if [[ -z "${SSH_CONNECTION}" && -n "${XDG_RUNTIME_DIR}" ]]; then
   export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 fi
 
+# Add local bin directory PATH if not already present
+if [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
+  PATH="$HOME/.local/bin:$PATH"
+fi
+
 # Add npm global packages to PATH if not already present
 if [[ ":$PATH:" != *":$HOME/.config/npm/bin:"* ]]; then
   PATH="$HOME/.config/npm/bin:$PATH"
